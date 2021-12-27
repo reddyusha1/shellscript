@@ -1,5 +1,5 @@
 #!/bin/bash
-count=10
+count=108
 if [ $count -eq 100 ]
 then
 echo " Count is 100 "

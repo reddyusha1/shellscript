@@ -15,6 +15,6 @@ whoami
 echo
 date
 echo
-#cal
+cal
 echo
 touch a b c
