@@ -1,0 +1,9 @@
+touch -d "Mon 1 Oct 2020 12:30:00" octfile
+ls -lrt
+find ./ -mtime +90 -exec ls -l {} \; {./ = path for files}
+(output)
+-rw-r--r-- 1 USHA REDDY 197609 0 Oct  1  2020 ./octfile
+-rw-r--r-- 1 USHA REDDY 197609 0 Oct  1  2020 ./octfile1
+-rw-r--r-- 1 USHA REDDY 197609 0 Oct  1  2020 ./octfile2
+-rw-r--r-- 1 USHA REDDY 197609 0 Oct  2  2020 ./octfile3
+-rw-r--r-- 1 USHA REDDY 197609 0 Oct  2  2020 ./octfile4

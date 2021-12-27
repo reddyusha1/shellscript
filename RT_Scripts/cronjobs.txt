@@ -1,0 +1,11 @@
+check the date
+crontab -e
+  add job in file
+  04 13 * * * /root/script/rt-scripts/pinghost.sh > /root/script/rt-scripts/ping.out
+  #output for pinghost.sh is redirect to ping.out
+  04 13 based on date output we got
+  #to send output to mail for this we need to enable sendmail or smpt 
+  04 13 * * * /root/script/rt-scripts/pinghost.sh | mail -s "connection status" abc@gmail.com
+when time is equal to 04 13 then output generated and saved in ping.out file 
+cat ping.out #output will display
+   
